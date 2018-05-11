@@ -11,10 +11,10 @@ Backend types are defined in [src/backends.js](src/backends.js). These create a 
 Install fly, clone this repo, compile typescript, start the server.
 
 ```bash
-$ npm install -g @fly/fly typescript
 $ git clone https://github.com/superfly/onehostname.git
 $ cd onehostname
-$ tsc
+$ npm install
+$ npx tsc
 $ fly server
 ```
 
